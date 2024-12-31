@@ -11,6 +11,7 @@ Depth-First Search explores as far as possible along each branch before backtrac
   3. Pop a node, process it, and push its unvisited neighbors.
 - Recursive:
   1. Process the node, mark it as visited, and recurse into its unvisited neighbors.
+ 
 **Result**
 0 -> 1 -> 3 -> 5 -> 2 -> 6 -> 4
 
@@ -20,6 +21,7 @@ BFS explores the graph level by level. It uses a queue to traverse all neighbors
   2. Enqueue the starting node.
   3. While the queue is not empty:
      - Dequeue a node, process it, and enqueue its unvisited neighbors.
+     
 **Result**
 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
